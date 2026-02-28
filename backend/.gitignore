@@ -1,0 +1,22 @@
+bin/
+obj/
+
+# Rider / VS / VS Code
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build / test artifacts
+TestResults/
+*.nupkg
+*.snupkg
+
+# Local secrets / machine-specific settings
+appsettings.Local.json
+appsettings.*.local.json
+
+# Logs
+*.log

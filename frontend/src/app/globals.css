@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+#nprogress {
+  pointer-events: none;
+  z-index: 9999;
+}
+#nprogress .bar {
+  background: #9f0712 !important;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px !important;
+}
+
+#nprogress .spinner {
+  display: none !important;
+}

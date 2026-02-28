@@ -1,0 +1,11 @@
+/* Customizing NProgress to mimic YouTube's red progress bar */
+#nprogress .bar {
+  background: #ff0000 !important; /* Red color like YouTube */
+  height: 3px !important; /* Adjust height if needed */
+}
+#nprogress .peg {
+  box-shadow: 0 0 10px #ff0000, 0 0 5px #ff0000 !important;
+}
+#nprogress .spinner {
+  display: none !important; /* Hide spinner if you only want the bar */
+}
